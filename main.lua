@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AlwaysNate/StrongNinjaSimulator/main/antiafk.lua"))()
 _G.Swing = true
 game.Players.LocalPlayer.PlayerGui.Main.Rebirth.Visible = false
 game.Players.LocalPlayer.leaderstats["💪 Strength"].Changed:Connect(function()
